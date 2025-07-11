@@ -122,9 +122,9 @@ header {
 /* feedback section */
 .feedback-container {
   display: flex;
-
-  margin: 50px 150px;
+  justify-content: space-between;
   gap: 20px;
+  padding: 50px 150px;
 }
 .img-container {
   margin-bottom: 24px;
@@ -142,8 +142,7 @@ header {
   color: #1e1e1e;
 }
 .feedback-card {
-  max-width: 367px;
-
+  max-width: 100%;
   padding: 24px;
   border: 1px solid #f2eded;
   border-radius: 14px;
