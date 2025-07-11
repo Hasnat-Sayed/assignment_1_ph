@@ -3,6 +3,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -75,4 +82,40 @@ header {
   font-weight: normal;
   color: rgba(37, 36, 50, 0.5);
   margin-bottom: 23px;
+}
+/* user-section */
+.user-section {
+  margin: 0 150px;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 80px 50px;
+  border-radius: 24px;
+}
+.user-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 158px;
+}
+.user-description {
+  text-align: center;
+}
+
+.user-title {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.user-number {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+.user-detail {
+  margin: 0px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
